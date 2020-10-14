@@ -2,7 +2,7 @@
 
 use EEHarbor\Wygwam\Helper;
 use EEHarbor\Wygwam\FluxCapacitor\Base\Upd;
-use EEHarbor\Wygwam\FluxCapacitor\Helpers\Version;
+use EEHarbor\Wygwam\FluxCapacitor\Conduit\Version;
 
 /**
  * Wygwam Update Class

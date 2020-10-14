@@ -1,9 +1,9 @@
 <?php
 
-namespace EEHarbor\Wygwam\Helpers;
+namespace EEHarbor\Wygwam\Conduit;
 
-use EEHarbor\Wygwam\Helpers\MigrationSource;
-use EEHarbor\Wygwam\FluxCapacitor\Helpers\McpNav as FluxNav;
+use EEHarbor\Wygwam\Conduit\MigrationSource;
+use EEHarbor\Wygwam\FluxCapacitor\Conduit\McpNav as FluxNav;
 
 class McpNav extends FluxNav
 {

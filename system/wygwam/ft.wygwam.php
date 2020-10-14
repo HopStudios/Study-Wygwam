@@ -389,7 +389,7 @@ class Wygwam_ft extends Ft
         ee()->typography->convert_curly = false;
 
         $data = ee()->typography->parse_type($data, array(
-            'text_format'   => 'xhtml',
+            'text_format'   => 'none',
             'html_format'   => 'all',
             'auto_links'    => (isset($this->row['channel_auto_link_urls']) ? $this->row['channel_auto_link_urls'] : 'n'),
             'allow_img_url' => (isset($this->row['channel_allow_img_urls']) ? $this->row['channel_allow_img_urls'] : 'y')

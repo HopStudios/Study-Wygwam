@@ -480,6 +480,7 @@ class Helper
     public static function themeUrl()
     {
         if (! isset(static::$_themeUrl)) {
+            // TODO: Bug?
             $themeFolderUrl = defined('URL_THIRD_THEMES') ? URL_THIRD_THEMES : ee()->config->slash_item('theme_folder_url').'third_party/';
             static::$_themeUrl = $themeFolderUrl.'wygwam/';
         }
